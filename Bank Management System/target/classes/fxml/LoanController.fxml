@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="700.0" prefWidth="1366.0" stylesheets="@../styles/LoanController.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.atmmanagementsys.ManagerLoanController">
+    <children>
+      <ScrollPane layoutX="17.0" layoutY="146.0" prefHeight="457.0" prefWidth="1021.0">
+         <content>
+            <TableView fx:id="LoanTable" prefHeight="585.0" prefWidth="1010.0">
+              <columns>
+                <TableColumn fx:id="loanID" editable="false" prefWidth="140.0" resizable="false" sortable="false" style="-fx-alignment: center; -fx-background-color: #8B008B; -fx-text-fill: rgb(255,255,255); -fx-font-size: 14px; -fx-font-weight: bold;" text="RequestID" />
+                <TableColumn fx:id="accountNo" editable="false" prefWidth="137.0" resizable="false" sortable="false" style="-fx-background-color: #8B008B; -fx-text-fill: rgb(255,255,255); -fx-font-size: 14px; -fx-font-weight: bold;" text="AccountNo" />
+                  <TableColumn fx:id="loanAmount" editable="false" prefWidth="135.0" resizable="false" sortable="false" style="-fx-background-color: #8B008B; -fx-font-size: 14px; -fx-text-fill: rgb(255,255,255); -fx-font-weight: bold;" text="Amount" />
+                  <TableColumn fx:id="reason" editable="false" prefWidth="490.0" resizable="false" sortable="false" style="-fx-background-color: #8B008B; -fx-font-size: 14px; -fx-text-fill: rgb(255,255,255); -fx-font-weight: bold;" text="Reason" />
+                  <TableColumn fx:id="status" editable="false" prefWidth="101.0" resizable="false" sortable="false" style="-fx-background-color: #8B008B; -fx-font-size: 14px; -fx-text-fill: rgb(255,255,255); -fx-font-weight: bold;" text="Status" />
+              </columns>
+            </TableView>
+         </content>
+      </ScrollPane>
+      <Pane layoutX="14.0" layoutY="47.0" prefHeight="75.0" prefWidth="550.0" styleClass="..\styles\Styles.css">
+         <children>
+            <TextField fx:id="accountNoField" layoutY="15.0" prefHeight="45.0" prefWidth="300.0" promptText="Account Number" style="-fx-background-radius: 22; -fx-border-color: #FFB6C1; -fx-border-radius: 20; -fx-border-width: 2;">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </TextField>
+            <Button fx:id="loadBtn" focusTraversable="false" layoutX="320.0" layoutY="18.0" onAction="#loadPressed" prefHeight="40.0" prefWidth="105.0" text="Load" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+            </Button>
+            <Button fx:id="searchBtn" focusTraversable="false" layoutX="431.0" layoutY="18.0" onAction="#searchPressed" prefHeight="40.0" prefWidth="105.0" text="Search" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="35.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="back" focusTraversable="false" layoutX="1253.0" layoutY="646.0" onAction="#backPressed" prefHeight="40.0" prefWidth="105.0" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="rejectBtn" focusTraversable="false" layoutX="1104.0" layoutY="217.0" onAction="#rejectPressed" prefHeight="40.0" prefWidth="105.0" text="Reject" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Button>
+      <Button fx:id="acceptBtn" focusTraversable="false" layoutX="1104.0" layoutY="154.0" onAction="#acceptPressed" prefHeight="40.0" prefWidth="105.0" text="Accept" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="35.0" />
+         </font>
+      </Button>
+      <Label fx:id="wrongUsr" alignment="CENTER" layoutX="1050.0" layoutY="538.0" prefHeight="35.0" prefWidth="286.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

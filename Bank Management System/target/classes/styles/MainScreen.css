@@ -1,0 +1,4 @@
+.root {
+-fx-background-image:url('MainScreen.jpg');
+-fx-background-size : cover;
+}

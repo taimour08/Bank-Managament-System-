@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="activation2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mailactivation/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/barcodes-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/forms-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/html2pdf-2.1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/io-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/itextpdf-4.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/kernel-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/layout-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/mysql-connector-java-8.0.22.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/pdfa-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/pdfbox-0.7.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/pdftest-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/sign-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/slf4j-simple-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/styled-xml-parser-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/svg-7.1.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/techsoftemail.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

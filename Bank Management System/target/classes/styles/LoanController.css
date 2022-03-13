@@ -1,0 +1,36 @@
+.root {
+-fx-background-image:url('Loan.jpg');
+-fx-background-size : cover;
+}
+
+.button {
+    -fx-background-color: #8B008B;
+    -fx-font-weight: bold;
+    -fx-background-radius: 20;
+    -fx-font-size:14;
+}
+
+.button:hover{
+
+    -fx-background-color: #FF1493;
+
+    -fx-text-fill: white;
+    -fx-border-color:#FFB6C1	;
+    -fx-border-width: 2;
+    -fx-border-radius: 20;
+
+
+
+}
+
+
+
+.button:pressed{
+
+    -fx-background-color: white;
+    -fx-text-fill: #FFB6C1	;
+    -fx-border-color:  #FFB6C1	;
+    -fx-border-width: 2;
+    -fx-rotate: 4;
+
+}

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="activation1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/mailactivation/activation.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/techsoftemail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mailactivation/itextpdf-4.2.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
